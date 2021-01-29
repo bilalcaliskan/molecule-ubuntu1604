@@ -14,7 +14,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/cache/apt/
 RUN sed -i 's/^\($ModLoad imklog\)/#\1/' /etc/rsyslog.conf
-
+RUN mkdir -p /usr/share/man/man1
 RUN pip install $PIP_PACKAGES
 
 RUN mkdir -p /etc/ansible
