@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/bilalcaliskan/molecule-ubuntu1604/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/bilalcaliskan/molecule-ubuntu1604/actions?query=workflow%3ABuild)
 [![Docker pulls](https://img.shields.io/docker/pulls/bilalcaliskan/molecule-ubuntu1604)](https://hub.docker.com/r/bilalcaliskan/molecule-ubuntu1604/)
+[![GitHub tag](https://img.shields.io/github/tag/bilalcaliskan/molecule-ubuntu1604.svg)](https://GitHub.com/bilalcaliskan/molecule-ubuntu1604/tags/)
 
 Ubuntu 16.04 Docker container for Ansible playbook and role testing.
 
