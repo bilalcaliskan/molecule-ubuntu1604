@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER bilalcaliskan
+LABEL maintainer="bilalcaliskan"
 ENV DEBIAN_FRONTEND noninteractive
 ENV APT_PACKAGES locales build-essential zlib1g-dev libncurses5-dev \
     libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev \
