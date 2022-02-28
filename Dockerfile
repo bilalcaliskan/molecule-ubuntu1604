@@ -1,5 +1,6 @@
 FROM ubuntu:16.04
 
+ENV DEBIAN_FRONTEND noninteractive
 ENV PIP_PACKAGES ansible==2.9.16
 ENV APT_PACKAGES locales \
     python-software-properties \
@@ -7,7 +8,7 @@ ENV APT_PACKAGES locales \
     wget rsyslog systemd curl \
     systemd-cron sudo iproute2 \
     python3 python3-setuptools \
-    python3-dev build-essential \
+    python3-dev python3-pip build-essential \
     libssl-dev libffi-dev
 
 RUN apt-get update \
